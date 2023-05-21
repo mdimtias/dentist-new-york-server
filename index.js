@@ -249,7 +249,7 @@ app.get("/booking/:id", async (req, res) => {
   }
 });
 
-// Get booking data by mail
+// Get all booking data 
 app.get("/booking", async (req, res) => {
   const email = req.query.email;
   const query = { email: email };
