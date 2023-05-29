@@ -12,14 +12,14 @@ Install dependencies:
 ```
 
 ## Configuration
-Create a .env file in the project root directory.
-Set the following environment variables in the .env file:
-PORT: The port number for the server (default: 5000).
-URL: The MongoDB connection URL.
-JWT_ACCESS_TOKEN_SECRET: Secret key for JSON Web Token (JWT) authentication.
-EMAIL_SEND_KEY: mailgun send key. 
-EMAIL_SEND_DOMAIN: mailgun domain key.
-STRIPE_SECRET: stripe secret key. 
+* Create a .env file in the project root directory.
+* Set the following environment variables in the .env file:
+* PORT: The port number for the server (default: 5000).
+* URL: The MongoDB connection URL.
+* JWT_ACCESS_TOKEN_SECRET: Secret key for JSON Web Token (JWT) authentication.
+* EMAIL_SEND_KEY: mailgun send key. 
+* EMAIL_SEND_DOMAIN: mailgun domain key.
+* STRIPE_SECRET: stripe secret key. 
 
 ## Database Setup
     1. Ensure MongoDB is installed and running.
